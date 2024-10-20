@@ -1,0 +1,9 @@
+body {
+    background-color: mistyrose;
+    margin: 30px;
+    font-size: larger;
+}
+
+button, input {
+    font-size: large;
+}
