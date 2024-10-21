@@ -10,13 +10,12 @@ From there we just need to plug-in the $x$-value of the vertex to the quadratic 
 **Example:**
 
 $$
-\begin{gather}
+\begin{gather*}
 y = -2x^2 + 10x - 9\\
 \text{The x-value of the vertex is: }x=\frac{-(10)}{2(-2)}\\
 x=2.5\\
-\text{}\\
 \text{Plug } x=2.5 \text{ into the equation:}\\
-\end{gather}
+\end{gather*}
 $$
 $$
 \begin{aligned}
@@ -26,10 +25,9 @@ y&=3.5\\
 \end{aligned}
 $$
 $$
-\begin{gather}
-\text{}\\
+\begin{gather*}
 \therefore\text{ the vertex is at } (2.5, 3.5)
-\end{gather}
+\end{gather*}
 $$
 
 
