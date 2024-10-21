@@ -24,11 +24,11 @@
 
 ❗Hopefully you didn't miss class and your teacher was able to describe the task to you. Click on each below to see your task (read carefully).
 
-You have 4 full class periods to complete this task (and any home time you wish to use but it is not forced). The goal is to complete Parts 1 & 2 (Level 3). If you move on to Part 3 and are successful in going "above and beyond", you will achieve a higher level (assuming the code is clean, easy to read, etc). **A rubric is in the making and will be added when it is ready.**
+You have 4 full class periods to complete this task (and any home time you wish to use but it is not forced). The goal is to complete Parts 1 & 2 (Level 3 & 4). If you move on to Part 3 and are successful in going "above and beyond", you will achieve an even higher level (assuming the code is clean, easy to read, etc). **A rubric is in the making and will be added when it is ready.**
 
-### [Part 1: Quadratics](./TASKS/PART1.md)
+### [Part 1: Geometry Functions](./TASKS/PART1.md)
 
-### [Part 2: Geometry Functions](./TASKS/PART2.md)
+### [Part 2: Quadratics](./TASKS/PART2.md)
 
 ### [Part 3: Extra](./TASKS/PART3.md)
 

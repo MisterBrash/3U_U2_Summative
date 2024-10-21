@@ -1,4 +1,4 @@
-# Part 3: Extra
+# Part 3: Extra  [Level 4+]
 
 ### Ready to reach "above and beyond"?
 
@@ -15,5 +15,5 @@
 
 #### Table of Contents
 - [README](../README.md)
-- [Part 1: Quadratics](./PART1.md)
-- [Part 2: Geometry Functions](./PART2.md)  
+- [Part 1: Geometry Functions](./PART1.md)  
+- [Part 2: Quadratics](./PART2.md)

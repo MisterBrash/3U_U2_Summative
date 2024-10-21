@@ -1,62 +1,44 @@
-# Part 1: Quadratics
-
-At this point in your math career, I'm sure you've seen **the quadratic formula:** $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$  
-It is a way of discovering the zeros of a parabola. But did you know that you can also use it to find the **vertex**?
-
-### Preamble - Vertex Formula
-The $\frac{-b}{2a}$ portion of the quadratic formula provides us with the $x$-value of the vertex!  
-From there we just need to plug-in the $x$-value of the vertex to the quadratic itself to get the $y$-value!
-
-**Example:**
-
-$$
-\begin{gather*}
-y = -2x^2 + 10x - 9\\
-\text{The x-value of the vertex is: }x=\frac{-(10)}{2(-2)}\\
-x=2.5\\
-\text{Plug } x=2.5 \text{ into the equation:}\\
-\end{gather*}
-$$
-$$
-\begin{aligned}
-y&=-2(2.5)^2+10(2.5)-9\\
-y&=-2(6.25)+25 - 9\\
-y&=3.5\\
-\end{aligned}
-$$
-$$
-\begin{gather*}
-\therefore\text{ the vertex is at } (2.5, 3.5)
-\end{gather*}
-$$
-
-
-
-### Your Job:
-
-The majority of [the HTML](../index.html) has been completed for you, along with some skeleton [JavaScript functions](../main.js).
+# Part 1: Geometry Functions
 
 ### JavaScript:
-1. The input box `rounding` will contain how many decimals the user wants for anwers. We will use this a lot, so we should make a function to help ourselves. Create the function `round_user(value)` which takes the `value` and rounds it to the user's request number of decimals, _returning_ the answer.  
+
+1. In mathematics the term Delta (∆) means _difference_. Create a JavaScript function `delta(a, b)` which _returns_ the value of `a - b`.  
+
+2. Slope of a line is calculated as $m= {\Delta{y} \over \Delta{x}}$. Create the function `slope(x1, y1, x2, y2)` which receives the points (x1, y1), (x2, y2) and _returns_ the slope. Do not round the result.
+You must use your `delta` function from #1 for this.
+
+3. The average of two numbers is as simple as $\frac{n1+n2}{2}$  
+Create the function `average(n1, n2)` which _returns_ the average of the two numbers.
+
+4. The input box `rounding` will contain how many decimals the user wants for anwers. We will use this a lot, so we should make a function to help ourselves. Create the function `round_user(value)` which takes the `value` and rounds it to the user's request number of decimals, _returning_ the answer.  
 For example, if the user has `4` in the `rounding` input box and we call `round_user(Math.PI)` we _get back_ `3.1416`.  
 
-2. Create the function `y_quad(a, b, c, x)` which takes the coefficients `a`, `b`, and `c` for a standard form quadratic along with a value for `x` and _return_ the value for `y`, not rounded.  
-For example:  `y_quad(-1, 2, 3, 5)` is equal to $y=-1x^2+2x+3$ where $x=5$ such that $y=-1(5)^2+2(5)+3$ and the answer is $-12$ so your function should return `-12`.
+5. The [length of a line segment](https://study.com/skill/learn/how-to-use-the-distance-formula-given-the-graph-of-a-line-segment-to-determine-its-length-explanation.html) is extremely similar to Pythagoras' Theorem:  $l={\sqrt{(\Delta{x})^2+(\Delta{y})^2}}$  
+Create the function `length(x1, y1, x2, y2)` which receives the points (x1, y1), (x2, y2) and _returns_ the distance between the two points. Do not round the result.  
+You must use your `delta` function from #1 for this.
 
 ### HTML:
 
-Make it so that the input boxes for `a`, `b`, and `c` are used and:
+**Note:** The HTML for this next portion has _not_ been completed for you. Utilize your lessons and [the existing HTML on the page](../index.html) to assist you.
 
-3. When a user clicks `Find the Zeros`, the quadratic formula is used to calculate the zeros and displays them _neatly_ in the `<div>` with the id `quadratic_output`. Print the output to the console as well. Round values to the selected number of decimals in the `rounding` input box.  
+6. Add four input boxes, one each for `length`, `width`, `height`, and `radius`. You should give them meaningful ids.  
 
-4. When a user clicks `Find the Vertex`, the vertex is discovered and displayed _neatly_ in the `<div>` with the id `quadratic_output`. Print the output to the console as well. Round values to the selected number of decimals in the `rounding` input box.  
-If done correctly, you should use your `y_quad()` function from #2 above. **Note** if you were unsuccessful in creating the `y_quad` function, then complete this _without_ using it.  
+7. Add a "Rectangular Prism Volume" button to the page. Create a `rect_prism_volume()` function which utilizes the contents of `length`, `width`, and `height` to calculate the volume of a rectangular based prism with these dimensions, _rounded to the requested number of decimals_. Output the result to the user in a pleasing manner (note - do **not** use the `quadratic_output` location for this).
 
-<br>
+8. Add a "Rectangular Prism Area" button to the page. Create a `rect_prism_area()` function which does the same as above but calculates the Surface Area of the prism.
+
+9. Add "Sphere Volume" and "Sphere Area" buttons. Create `sphere_volume()` and `sphere_area()` functions accordingly which utilize the `radius` input box.
+
+10. Add a section to the page where a user can enter values for two points (x1, y1) (x2, y2). You will need four input boxes, one for each value. Make sure the user understands what they are being asked to enter. Utilize headings or similar to inform the user.
+
+10. Add "Slope" and "Length" buttons to the page which utilize the input boxes from #5 and display the result in a neat fashion **rounded to the requested number of decimals**.
+
+11. The _midpoint_ of a line segment is easily calculated as $M=(\frac{x1+x2}{2},\frac{y1+y2}{2})$  
+Add the button "Midpoint" and create the function `midpoint()` which uses the input boxes from #9 above to neatly print the midpoint of the line section with values rounded to the requested number of decimals. If done correctly, you should use your `average(n1, n2)` function from #3 above.
 
 ---
 
 #### Table of Contents
 - [README](../README.md)
-- [Part 2: Geometry Functions](./PART2.md)  
+- [Part 2: Quadratics](./PART2.md)  
 - [Part 3: Extra](./PART3.md)
