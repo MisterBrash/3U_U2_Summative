@@ -9,7 +9,8 @@
 'use strict';
 
 /*** Event Listeners ***/
-
+document.getElementById("zeros").addEventListener("click", zeros);
+document.getElementById("vertex").addEventListener("click", vertex);
 
 /*** Functions ***/
 
@@ -20,6 +21,8 @@ function round(value, decimals) {
 
 // Round to the user's number of decimals
 function round_user(value) {
+    // Get the number of decimals from the "rounding" box
+    let d = Number(document.getElementById("rounding").value)
 
 }
 
