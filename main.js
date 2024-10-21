@@ -13,14 +13,19 @@
 
 /*** Functions ***/
 
-// Return a random integer from `min` to `max`, inclusive
-function randInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-// Round to the nearest "decimals" number of decimals
+// Round to the nearest `decimals` number of decimals
 function round(value, decimals) {
     return Math.round(value * 10**decimals) / 10**decimals;
+}
+
+// Round to the user's number of decimals
+function round_user(value) {
+
+}
+
+// Calculate the y-value of a parabola from standand form
+function y_quad(a, b, c, x) {
+
 }
 
 // Determine the zeros of a quadratic using user-inputs for a, b, and c
