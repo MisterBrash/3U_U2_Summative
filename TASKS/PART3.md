@@ -1,5 +1,7 @@
 # Part 3: Extra
 
+### Ready to reach "above and beyond"?
+
 - Utilize your knowledge of HTML, CSS, and JavaScript to add images or style to the page to make it more interesting looking (appealing).  
   - We are going for _nice looking_ not gross looking. No black text on a purple background.  
 
