@@ -10,7 +10,7 @@ You must use your `delta` function from #1 for this.
 3. The average of two numbers is as simple as $\frac{n1+n2}{2}$  
 Create the function `average(n1, n2)` which _returns_ the average of the two numbers.
 
-4. The input box `rounding` will contain how many decimals the user wants for anwers. We will use this a lot, so we should make a function to help ourselves. Create the function `round_user(value)` which takes the `value` and rounds it to the user's request number of decimals, _returning_ the answer.  
+4. The input box `rounding` will contain how many decimals the user wants for answers. We will use this a lot, so we should make a function to help ourselves. Create the function `round_user(value)` which takes the `value` and rounds it to the user's requested number of decimals, _returning_ the answer.  
 For example, if the user has `4` in the `rounding` input box and we call `round_user(Math.PI)` we _get back_ `3.1416`.  
 
 5. The [length of a line segment](https://study.com/skill/learn/how-to-use-the-distance-formula-given-the-graph-of-a-line-segment-to-determine-its-length-explanation.html) is extremely similar to Pythagoras' Theorem:  $l={\sqrt{(\Delta{x})^2+(\Delta{y})^2}}$  
@@ -31,10 +31,10 @@ You must use your `delta` function from #1 for this.
 
 10. Add a section to the page where a user can enter values for two points (x1, y1) (x2, y2). You will need four input boxes, one for each value. Make sure the user understands what they are being asked to enter. Utilize headings or similar to inform the user.
 
-10. Add "Slope" and "Length" buttons to the page which utilize the input boxes from #5 and display the result in a neat fashion **rounded to the requested number of decimals**.
+11. Add "Slope" and "Length" buttons to the page which utilize the input boxes from #10 and display the result in a neat fashion **rounded to the requested number of decimals**.
 
-11. The _midpoint_ of a line segment is easily calculated as $M=(\frac{x1+x2}{2},\frac{y1+y2}{2})$  
-Add the button "Midpoint" and create the function `midpoint()` which uses the input boxes from #9 above to neatly print the midpoint of the line section with values rounded to the requested number of decimals. If done correctly, you should use your `average(n1, n2)` function from #3 above.
+12. The _midpoint_ of a line segment is easily calculated as $M=(\frac{x1+x2}{2},\frac{y1+y2}{2})$  
+Add the button "Midpoint" and create the function `midpoint()` which uses the input boxes from #10 above to neatly print the midpoint of the line section with values rounded to the requested number of decimals. If done correctly, you should use your `average(n1, n2)` function from #3 above.
 
 ---
 
