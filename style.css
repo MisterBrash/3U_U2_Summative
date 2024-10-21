@@ -1,9 +1,18 @@
 body {
-    background-color: mistyrose;
-    margin: 30px;
+    background-color:lightcyan;
+    margin: 20px;
     font-size: larger;
 }
 
 button, input {
     font-size: large;
+}
+
+.heading_img {
+    vertical-align: auto;
+}
+
+/* Quadratics number boxes */
+#rounding, #a, #b, #c {
+    width: 50px;
 }
