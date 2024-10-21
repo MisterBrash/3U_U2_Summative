@@ -3,7 +3,7 @@
 At this point in your math career, I'm sure you've seen **the quadratic formula:** $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$  
 It is a way of discovering the zeros of a parabola. But did you know that you can also use it to find the **vertex**?
 
-### Vertex Formula
+### Preamble - Vertex Formula
 The $\frac{-b}{2a}$ portion of the quadratic formula provides us with the $x$-value of the vertex!  
 From there we just need to plug-in the $x$-value of the vertex to the quadratic itself to get the $y$-value!
 
