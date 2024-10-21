@@ -8,7 +8,9 @@ The $\frac{-b}{2a}$ portion of the quadratic formula provides us with the $x$-va
 From there we just need to plug-in the $x$-value of the vertex to the quadratic itself to get the $y$-value!
 
 **Example:**
-```Math
+
+```math
+\displaylines{
 y = -2x^2 + 10x - 9
 \\\text{The x-value of the vertex is: }\,x=\frac{-(10)}{2(-2)}
 \\x=2.5
@@ -20,7 +22,8 @@ y = -2x^2 + 10x - 9
 \\y&=3.5
 \end{aligned}
 \\\text{}
-\\\text{So the vertex is at } (2.5, 3.5)
+\\\therefore\text{ the vertex is at } (2.5, 3.5)
+}
 ```
 
 
