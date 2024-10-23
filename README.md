@@ -34,6 +34,8 @@ You have 4 full class periods to complete this task (and any home time you wish 
 
 ### [Rubric](./TASKS/RUBRIC.md)
 
+### [Example Solution](https://brashics.github.io/unit-2-summative-functions-MisterPl0w/) - for demonstration purposes only.
+
 <br>
 
 Feel free to modify the style and content of [index.html](./index.html) but you must **manage your own time wisely**. Getting lost in the CSS or similar is not a valid reason for an incomplete submission.
